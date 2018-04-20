@@ -1,10 +1,10 @@
 {
-  "name": "@tinymce/tinymce-vue",
+  "name": "nix-tinymce",
   "version": "1.0.6",
-  "description": "Official TinyMCE Vue Component",
+  "description": "修改自 Official TinyMCE Vue Component",
   "private": false,
   "repository": {
-    "url": "https://github.com/tinymce/tinymce-vue"
+    "url": "git+https://github.com/arieslee/nix-tinymce.git"
   },
   "main": "lib/cjs/index.js",
   "module": "lib/es2015/index.js",
@@ -51,5 +51,9 @@
     "vue-loader": "^14.0.3",
     "vue-template-compiler": "^2.5.13",
     "webpack": "^3.10.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/arieslee/nix-tinymce/issues"
+  },
+  "homepage": "https://github.com/arieslee/nix-tinymce#readme"
 }
